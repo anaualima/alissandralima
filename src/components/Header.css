@@ -1,0 +1,114 @@
+body {
+    background-color: #22272e;
+    color: #DFDDD0;
+}
+
+header {
+    background-color: #2d333b;
+    color: #DFDDD0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    float: right;
+    margin-left: 800px;
+}
+
+.navlink {
+    color: #DFDDD0;
+    text-decoration: none;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.navlink.active, .navlink:hover {
+    background-color: #40335C;
+    transition: .5s;
+}
+
+#checkmenu {
+    color: #DFDDD0;
+    position: absolute;
+    opacity: 0;
+}
+
+.container-icon-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-menu {
+    display: flex;
+    width: 50px;
+}
+
+label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+label span {
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: #DFDDD0;
+    transition: 0.25s;
+}
+
+label span:nth-child(1) {
+    top: 0;
+}
+
+label span:nth-child(2) {
+    top: 8px;
+}
+
+label span:nth-child(3) {
+    top: 16px;
+}
+
+#checkmenu:checked + label span:nth-child(1) {
+    transform: rotate(-45deg);
+    top: 8px;
+}
+
+#checkmenu:checked + label span:nth-child(2) {
+    opacity: 0;
+}
+
+#checkmenu:checked + label span:nth-child(3) {
+    transform: rotate(45deg);
+    top: 8px;
+}
+
+.menu {
+    background-color: #2d333b;
+    display: flex;
+    flex-direction: column;
+    left: 1%;
+    margin: 45px 0 0;
+    width: 100%;
+    padding: 30px;
+    flex-wrap: nowrap;
+    font-size: 1.2rem;
+    font-weight: 600;
+    float: left;
+    margin-top: 2px;
+}
