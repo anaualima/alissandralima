@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer';
 import solar from '../images/solarsystem.png';
 import pixelsart from '../images/pixelsart.jpeg';
-import todolist from '../images/totolist.jpeg';
+import todolist from '../images/todolist.jpeg';
 import trybewarts from '../images/trybewarts.jpeg';
 import miusic from '../images/music.jpeg';
 import trybewallet from '../images/trybewallet.jpeg';

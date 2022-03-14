@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
-import alissandralima from '../images/alissandralima.jpeg';
+import alissandralima from '../images/perfil.jpeg';
 
 function About() {
   return (

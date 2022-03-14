@@ -1,19 +1,16 @@
 import React from 'react';
-import github from '../images/github.svg';
-import email from '../images/email.svg';
 import './Footer.css';
-import 'package:unicons/unicons.dart';
-import { UilLinkedin } from '@iconscout/react-unicons';
 
 function Footer() {
   return (
     <div>
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"></link>
       <footer className="footer-port">
       <p>Este portifólio pertence à Alissandra Lima</p>
       <div className="container-icons">
-      {/* <p>{ UilLinkedin }</p> */}
-      <img src={ github } alt="githubicon" width="50px"/>
-      <img src={ email } alt="githubicon" width="50px"/>
+        <i class="uil uil-github"></i>
+        <i class="uil uil-linkedin"></i>
+        <i class="uil uil-envelope-share"></i>
       </div>
       </footer>
     </div>

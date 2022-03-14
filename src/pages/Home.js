@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import './Home.css';
-import avatar from '../images/avatarprovisorio.png';
+import avatar from '../images/avatar.svg';
 
 function Home() {
   return (
