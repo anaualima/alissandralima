@@ -5,3 +5,8 @@
 .container-project {
   display: flex;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}

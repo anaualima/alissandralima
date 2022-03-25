@@ -1,0 +1,25 @@
+.about-container{
+  margin-top: 5vw;
+}
+
+.alissandra-img{
+ width: 350px;
+ order: 2;
+ border-radius: 5px;
+ margin-left: 5vw;
+ margin-right: 10vw;
+}
+
+h1{
+  margin: 20px;
+}
+
+p {
+  order: 1;
+  margin: 50px;
+  line-height: 1.6;
+}
+
+.description-container{
+  display: flex;
+}

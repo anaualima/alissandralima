@@ -8,10 +8,12 @@ import miusic from '../images/music.jpeg';
 import trybewallet from '../images/trybewallet.jpeg';
 import cookit from '../images/cookit.jpeg';
 import './Projects.css';
+import Header from '../components/Header';
 
 function Projects() {
   return (
     <div>
+      <Header />
       <h1>Projetos</h1>
       <h2>Os projetos estão organizados em ordem cronológica</h2>
       <a href="https://cookit-app-de-receitas.vercel.app/#/">

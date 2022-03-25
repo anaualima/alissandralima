@@ -5,10 +5,16 @@ footer {
     text-align: center;
 }
 
+p {
+    order: 1;
+}
+
 .container-icons {
+    order: 2;
     display: flex;
     align-items: center;
     justify-content: center;
+    line-height: 10%;
 }
 
 i {

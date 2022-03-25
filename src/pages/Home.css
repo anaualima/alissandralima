@@ -1,5 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,700;1,100&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,700;1,100&display=swap');
-
 body {
     background-color: #22272e;
     color: #DFDDD0;
@@ -10,8 +10,13 @@ body {
 }
 
 .title {
+  color: white;
   margin-top: 200px;
   font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  margin-left: 50px;
+  margin-top: 3vw;
 }
 
 .first-div {
@@ -29,33 +34,30 @@ body {
   height: 30vw;
   position: absolute;
   z-index: 4;
-  left: 30vw;
+  left: 40vw;
   top: 2vw;
 }
 
-img {
-  width: 500px;
-}
-
 .second-div {
-  background-color: #363141;
   height: 92vh;
   width: 50%;
-  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  clip-path: circle(71.4% at 74% 61%);
   position: absolute;
   z-index: 3;
   margin-right: 0;
   left: 50vw;
+  opacity: 0.2;
 }
 
 .avatar {
-  width: 600px;
+  width: 460px;
   margin-top: 50px;
 }
 
 footer {
   display: flex;
   margin-left: 80px;
+  margin-bottom: 50px;
 }
 
 .menu {
