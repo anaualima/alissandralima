@@ -5,8 +5,13 @@ footer {
     text-align: center;
 }
 
-p {
+.footer-port {
+  margin-bottom: 10%;
+}
+
+.paragrafo {
     order: 1;
+    margin-bottom: 3%;
 }
 
 .container-icons {
@@ -20,4 +25,21 @@ p {
 i {
     font-size: 40px;
     letter-spacing: 10px;
+}
+
+.iconlink {
+    color: #DFDDD0;
+    text-decoration: none;
+    float: right;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.iconlink.active, .iconlink:hover {
+    background-color: #40335C;
+    transition: .5s;
+    border-radius: 10px;
 }

@@ -6,6 +6,7 @@ body {
 }
 
 .container-divs {
+  width: 100%;
   display: flex;
 }
 
@@ -19,6 +20,10 @@ body {
   margin-top: 3vw;
 }
 
+.title span {
+  color: #7451AA;
+}
+
 .first-div {
   height: 92vh;
   /* width: 50%; */
@@ -30,12 +35,12 @@ body {
 }
 
 .img-div {
-  /* border: 5px solid slateblue; */
   height: 30vw;
   position: absolute;
   z-index: 4;
   left: 40vw;
   top: 2vw;
+  /* width: 50%; */
 }
 
 .second-div {
@@ -47,6 +52,11 @@ body {
   margin-right: 0;
   left: 50vw;
   opacity: 0.2;
+  background-image: url('../images/binario.jpg');
+}
+
+.img-binario {
+  height: 70%;
 }
 
 .avatar {
@@ -56,8 +66,6 @@ body {
 
 footer {
   display: flex;
-  margin-left: 80px;
-  margin-bottom: 50px;
 }
 
 .menu {
