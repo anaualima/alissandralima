@@ -4,14 +4,18 @@
 
 .alissandra-img{
  width: 350px;
+ height: 350px;
  order: 2;
  border-radius: 5px;
  margin-left: 5vw;
  margin-right: 10vw;
+ /* z-index: 0;
+ position: absolute;
+ left: 60vw; */
 }
 
-h1{
-  margin: 20px;
+.h1-about{
+  margin: 40px;
 }
 
 .description {
@@ -23,3 +27,45 @@ h1{
 .description-container{
   display: flex;
 }
+
+.my-languages {
+  border: solid 3px #8381F5;
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 42px;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.container-icons-languages {
+  /* border: solid 3px greenyellow; */
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding: 10px;
+}
+
+.languages-icons {
+  width: 10px;
+  height: 10px;
+}
+
+.node-icon {
+  width: 50px;
+}
+
+.mysql-icon {
+  width: 65px;
+}
+
+/* .enfeite-div {
+  border: solid 5px palevioletred;
+  position: absolute;
+  left: 78vw;
+  z-index: 2;
+  top: 29vw;
+} */
+
+/* .enfeite1 {
+  width: 250px;
+} */
