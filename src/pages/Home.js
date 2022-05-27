@@ -11,7 +11,7 @@ function Home() {
       <div className="container-divs">
       <div className="first-div">
       <h1 className="title"><span>H</span>ello<span>,</span> <br></br> I'm<br></br> Alissandra<span>.</span></h1>
-      <Footer className="footer"/>
+      <Footer className="footer-class"/>
       </div>
       <div className="img-div">
       <img src={ avatar } alt="avatar-alissandra" className="avatar"/>

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div>
+    <div className="footer-class">
       <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"></link>
       <footer className="footer-port">
       <p className="paragrafo">Este portifólio pertence à Alissandra Lima</p>

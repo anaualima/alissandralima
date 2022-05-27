@@ -64,10 +64,6 @@ body {
   margin-top: 50px;
 }
 
-footer {
-  display: flex;
-}
-
 .menu {
   position: absolute;
   z-index: 1;
