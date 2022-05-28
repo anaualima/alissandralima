@@ -34,12 +34,28 @@
     justify-content: space-around;
 }
 
-.title {
+.projects-title {
    margin: 10px;
    font-size: 40px;
    color: #DFDDD0;
 }
 
-.subtitle {
+.projects-subtitle {
    margin: 10px;
+}
+
+.iconProjects {
+    color: #DFDDD0;
+    text-decoration: none;
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: 600;
+}
+
+.iconProjects.active, .iconProjects:hover {
+    background-color: #40335C;
+    transition: .5s;
+    border-radius: 10px;
 }

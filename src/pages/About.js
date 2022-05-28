@@ -23,7 +23,7 @@ function About() {
       <div className="description-container">
       <img src={ alissandralima } alt="alissandra-lima" className="alissandra-img"/>
       <div className="text-container">
-      <p className="description">Olá me chamo Alissandra Lima, mas pode me chamar de Anauá sou estilista e agora aspirante a desenvolvedora web, meu principais interesses são na área de frontend, UX e UI design. Gosto muito de música e arte de maneira geral, com destaque para a cultura hip hop.
+      <p className="description">Olá me chamo Alissandra Lima, mas pode me chamar de Anauá sou desenvolvedora web front end e com alguns conhecimentos em back end.
         Este porrifólio reúne parte dos meus projetos realizados na Trybe, no curso de desenvolvedores fullstack.
         Agradeço sua visita, e fique a vontade para "fuçar" tudinho!</p>
         <div className="my-languages">

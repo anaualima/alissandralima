@@ -22,7 +22,7 @@
     line-height: 10%;
 }
 
-i {
+.iconlink,i {
     font-size: 40px;
     letter-spacing: 10px;
 }
