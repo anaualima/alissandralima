@@ -3,18 +3,23 @@ import emailjs from 'emailjs-com';
 
 function ContactUs() {
 
-  const sendEmail = (send) => {
+  function sendEmail(e) {
+    e.preventDefault();
 
-    emailjs.send('contact_service', 'template_0llt2th', send)
+    emailjs.sendForm('contact_service', 'template_zh538ca', e.target, '6fEi1so2mYVPT02bh')
+
       .then((result) => {
-          alert("Agradeço sua mensagem!")
+        alert("Agradeço sua mensagem, em breve retornarei o contato!🟣");
+
       }, (error) => {
-          alert(error.message);
+        alert(error.message)
+
       });
-  };
+    e.target.reset()
+  }
 
   return (
-    <form  onSubmit={sendEmail}>
+    <form onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" />
       <label>Email</label>

@@ -7,17 +7,22 @@ import FormEmail from '../components/FormEmail';
 function Contact() {
   return (
     <div>
-        <Header />
-        <div className="container-general"> 
+      <Header />
+      <div className="container-general">
+        <div className="container-align-contact-form">
         <div className="contact-container">
-        <h1>Contatos</h1>
-        <p>Linkedin: https://www.linkedin.com/in/alissandra-lima-developer/</p>
-        <p>github: https://github.com/anaualima</p>
-        <p>email: alissandraraysa@gmail.com</p>
+          <h1>Contatos</h1>
+          <p>Linkedin: https://www.linkedin.com/in/alissandra-lima-developer/</p>
+          <p>github: https://github.com/anaualima</p>
+          <p>email: alissandraraysa@gmail.com</p>
         </div>
-        <img src={ email } alt="ilustracao de email" className="ilustra-email"/>
+        <div className="container-form">
+        <h3>Envie-me uma mensagem!</h3>
+          <FormEmail />
         </div>
-        <FormEmail />
+        </div>
+        <img src={email} alt="ilustracao de email" className="ilustra-email" />
+      </div>
     </div>
   )
 }

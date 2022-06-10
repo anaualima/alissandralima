@@ -1,5 +1,4 @@
 .contact-container{
-  border: 5px solid red;
   margin-top: 10vw;
   margin-left: 8vw;
   height: 20vw;
@@ -9,11 +8,26 @@
 .ilustra-email{
   width: 500px;
   margin-right: 5px;
-  margin-top: 300px;
-  margin-left: 150px;
+  margin-top: 5px;
+  margin-left: 12px;
 }
 
 .container-general {
-  border: 5px solid purple;
   display: flex;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color:  #2d333b;
+  height: 300px;
+  width: 450px;
+  margin-left: 482px;
+}
+
+.container-align-contact-form{
+  width: 60%;
 }
