@@ -1,20 +1,16 @@
-.img-project {
-  width:500px;
-}
-   
-.container-project {
+.container-projects {
   display: flex;
+  justify-content: space-around;
+
 }
 
-a {
-  color: white;
-  text-decoration: none;
+.container-empty {
+ width: 19%;
 }
 
 .projects-choice {
   text-decoration: none;
   float: right;
-  margin-right: 20px;
   margin-top: 15px;
   border-radius: 5px;
   padding: 2px;
@@ -26,10 +22,9 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 50%;
+  align-items: center;
+  width: 65vh;
   height: 85vh;
-  margin: 10vh;
-
 }
 
 .projects-choice {
@@ -57,14 +52,7 @@ a {
   height: 30%;
 }
 
-.img-enfeite {
-  margin-top: 11vh;
-}
-
-.enfeite1 {
-  opacity: 30%;
-}
-
-.container-projects {
-  display: flex;
+.engrenagem {
+  width: 200px;
+  margin-bottom: 300px;
 }

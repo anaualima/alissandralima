@@ -3,25 +3,24 @@ import './Projects.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { NavLink } from 'react-router-dom';
-import enfeite1 from '../images/enfeite1.svg';
+import engrenagem from '../images/engrenagem.svg';
 
 function Projects() {
   return (
     <div>
       <Header />
       <div className="container-projects">
-      <div className="bigger-box">
-      <h1>Projetos</h1>
-      <h2>Escolha uma opção:</h2>
-      <div className="link-box">
-      <NavLink exact to="/projectsfrontend" className="projects-choice ">Front End</NavLink>
-      <NavLink exact to="/projectsbackend" className="projects-choice ">Back End</NavLink>
-      </div>
-      <Footer className="project-footer"/>
-      </div>
-      <div className="img-enfeite">
-        <img src={ enfeite1 } alt="enfeite circular" className="enfeite1"/>
-      </div>
+        <img src={engrenagem} alt="enfeite circular" className="engrenagem" />
+        <div className="bigger-box">
+          <h1>Projetos</h1>
+          <h2>Escolha uma opção:</h2>
+          <div className="link-box">
+            <NavLink exact to="/projectsfrontend" className="projects-choice">Front End</NavLink>
+            <NavLink exact to="/projectsbackend" className="projects-choice">Back End</NavLink>
+          </div>
+          <Footer className="project-footer" />
+        </div>
+      <div className="container-empty"></div>
       </div>
     </div>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import './Home.css';
-import avatar from '../images/avatar.svg';
+import avatar from '../images/avatar.png';
 
 function Home() {
   return (
@@ -17,7 +17,6 @@ function Home() {
       <img src={ avatar } alt="avatar-alissandra" className="avatar"/>
       </div>
       <div className='second-div'>
-      {/* <img src={ binaro } alt="codigo-binario" className="img-binario"/> */}
       </div>
       </div>
     </div>

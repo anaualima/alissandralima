@@ -1,71 +1,75 @@
 .about-container{
   margin-top: 5vw;
 }
-
-.alissandra-img{
- width: 350px;
- height: 350px;
- order: 2;
- border-radius: 5px;
- margin-left: 5vw;
- margin-right: 10vw;
- /* z-index: 0;
- position: absolute;
- left: 60vw; */
-}
-
-.h1-about{
-  margin: 40px;
-}
-
 .description {
   order: 1;
   margin: 50px;
   line-height: 1.6;
 }
 
-.description-container{
-  display: flex;
+.text-container {
+  width: 65%;
+  margin-left: 5px;
+}
+
+.alissandra-img{
+ width: 250px;
+ height: 250px;
+ order: 2;
+ border-radius: 5px;
+ z-index: 0;
+ position: absolute;
+ margin-top: 80px;
+ margin-left: 990px;
+}
+
+.moldura {
+  width: 500px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 870px;
+}
+
+.h1-about{
+  margin: 40px;
+  width: 65%;
 }
 
 .my-languages {
-  border: solid 3px #8381F5;
+  border: solid 3px #7451AA;;
   border-radius: 20px;
-  width: 80%;
+  width: 800px;
   margin-left: 42px;
   padding: 10px;
   margin-bottom: 40px;
 }
 
 .container-icons-languages {
-  /* border: solid 3px greenyellow; */
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding-top: 20px;
   padding: 10px;
 }
 
 .languages-icons {
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
 }
 
-.node-icon {
+.react-icons {
+  width: 45px;
+}
+
+.jest-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.medium-icon {
   width: 50px;
 }
 
 .mysql-icon {
-  width: 65px;
+  width: 75px;
 }
-
-/* .enfeite-div {
-  border: solid 5px palevioletred;
-  position: absolute;
-  left: 78vw;
-  z-index: 2;
-  top: 29vw;
-} */
-
-/* .enfeite1 {
-  width: 250px;
-} */
