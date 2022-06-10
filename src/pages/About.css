@@ -13,8 +13,8 @@
 }
 
 .alissandra-img{
- width: 250px;
- height: 250px;
+ width: 150px;
+ height: 150px;
  order: 2;
  border-radius: 5px;
  z-index: 0;
@@ -24,7 +24,7 @@
 }
 
 .moldura {
-  width: 500px;
+  width: 400px;
   position: absolute;
   z-index: 1;
   margin-left: 870px;

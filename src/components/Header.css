@@ -99,12 +99,13 @@ label span:nth-child(3) {
 }
 
 .menu {
+    /* width: 100vh; */
+    /* clip-path: circle(50% at 23% 29%); */
     background-color: #2d333b;
     display: flex;
     flex-direction: column;
-    left: 1%;
-    margin: 45px 0 0;
-    width: 100%;
+    /* left: 1%; */
+    margin: 1px 2px 2px;
     padding: 30px;
     flex-wrap: nowrap;
     font-size: 1.2rem;

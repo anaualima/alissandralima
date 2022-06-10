@@ -47,11 +47,11 @@ body {
 .second-div {
   height: 92vh;
   width: 50%;
-  clip-path: circle(71.4% at 74% 61%);
+  clip-path: circle(58.6% at 83% 50%);
   position: absolute;
   z-index: 3;
   margin-right: 0;
-  margin-left: 62vw;
+  margin-left: 52vw;
   opacity: 0.2;
   background-image: url('../images/binario.jpg');
 }
