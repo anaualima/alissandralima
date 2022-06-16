@@ -1,5 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import './FormEmail.css';
 
 function ContactUs() {
 
@@ -19,15 +20,18 @@ function ContactUs() {
   }
 
   return (
-    <form onSubmit={sendEmail}>
-      <label>Name</label>
+    <div className="container-send">
+    <h3>Envie-me uma mensagem!</h3>
+    <form onSubmit={sendEmail} className="container-form">
+      <label>Nome</label>
       <input type="text" name="user_name" />
       <label>Email</label>
       <input type="email" name="user_email" />
-      <label>Message</label>
+      <label>Mensagem</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <input type="submit" value="Send"  className="send"/>
     </form>
+    </div>
   );
 };
 

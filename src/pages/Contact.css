@@ -6,26 +6,15 @@
 }
 
 .ilustra-email{
-  width: 500px;
+  width: 30%;
+  height: 70%;
   margin-right: 5px;
-  margin-top: 5px;
-  margin-left: 12px;
+  margin-top: 10%;
+  margin-left: -3%;
 }
 
 .container-general {
   display: flex;
-}
-
-.container-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  background-color:  #2d333b;
-  height: 300px;
-  width: 450px;
-  margin-left: 482px;
 }
 
 .container-align-contact-form{

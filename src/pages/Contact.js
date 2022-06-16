@@ -16,10 +16,7 @@ function Contact() {
           <p>github: https://github.com/anaualima</p>
           <p>email: alissandraraysa@gmail.com</p>
         </div>
-        <div className="container-form">
-        <h3>Envie-me uma mensagem!</h3>
           <FormEmail />
-        </div>
         </div>
         <img src={email} alt="ilustracao de email" className="ilustra-email" />
       </div>
