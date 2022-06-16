@@ -3,10 +3,10 @@ body {
     color: #DFDDD0;
 }
 
-header {
+.header {
     background-color: #2d333b;
     color: #DFDDD0;
-    height: 90%;
+    /* height: 90%; */
     width: 100%;
     display: flex;
 }
@@ -24,7 +24,7 @@ nav {
     text-decoration: none;
     float: right;
     margin-right: 1%;
-    margin-top: 5%;
+    margin-top: 4%;
     border-radius: 5px;
     padding: 1%;
     font-size: 17px;
@@ -49,7 +49,7 @@ nav {
 
 .icon-menu {
     display: flex;
-    width: 50px;
+    width: 50%;
 }
 
 label {
@@ -65,7 +65,7 @@ label {
 label span {
     position: absolute;
     display: block;
-    height: 5px;
+    height: 15%;
     width: 100%;
     border-radius: 30px;
     background-color: #DFDDD0;
@@ -111,5 +111,5 @@ label span:nth-child(3) {
     font-size: 1.2rem;
     font-weight: 600;
     float: left;
-    margin-top: 2px;
+    margin-top: 2%;
 }

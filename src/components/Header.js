@@ -12,7 +12,7 @@ function Header() {
   }
 
   return (
-    <header>
+    <header className="header">
       <div className="container-icon-menu">
       <div className="icon-menu">
         <input type="checkbox" id="checkmenu" onClick={ toggleMode }/>
