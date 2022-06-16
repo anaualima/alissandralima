@@ -21,10 +21,10 @@ function Projects() {
                   <p>{p.name}</p>
                   <p>{p.description}</p>
                   <a href={p.github} className="iconProjects">
-                    <i class="uil uil-github"></i>
+                    <i className="uil uil-github"></i>
                   </a>
                   <a href={p.url} className="iconProjects">
-                    <i class="uil uil-location-arrow"></i>
+                    <i className="uil uil-location-arrow"></i>
                   </a>
                 </div>
               </div>

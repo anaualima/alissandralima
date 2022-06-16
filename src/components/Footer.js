@@ -10,13 +10,13 @@ function Footer() {
       <p className="paragrafo">Este portifólio pertence à Alissandra Lima</p>
       <div className="container-icons">
       <a href="https://github.com/anaualima" className="iconlink">
-      <i class="uil uil-github"></i>
+      <i className="uil uil-github"></i>
       </a>
       <a href="https://www.linkedin.com/in/alissandra-lima-developer/" className="iconlink">
-      <i class="uil uil-linkedin"></i> 
+      <i className="uil uil-linkedin"></i> 
       </a>
       <NavLink exact to="/contact" className="iconlink">
-      <i class="uil uil-envelope-share"></i>
+      <i className="uil uil-envelope-share"></i>
       </NavLink>
       </div>
       </footer>

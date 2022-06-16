@@ -1,21 +1,12 @@
 .container-projects {
   display: flex;
   justify-content: space-around;
-
+  width: 100%;
+  margin-top: 3%;
 }
 
 .container-empty {
- width: 19%;
-}
-
-.projects-choice {
-  text-decoration: none;
-  float: right;
-  margin-top: 15px;
-  border-radius: 5px;
-  padding: 2px;
-  font-size: 17px;
-  font-weight: 600;
+  width: 19%;
 }
 
 .bigger-box {
@@ -23,19 +14,18 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 65vh;
-  height: 85vh;
+  width: 33%;
+  height: -550%;
 }
 
 .projects-choice {
   color: #DFDDD0;
   text-decoration: none;
   float: right;
-  margin-right: 20px;
-  margin-top: 15px;
+  margin-top: 5%;
   border-radius: 5px;
   padding: 2px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
 }
 

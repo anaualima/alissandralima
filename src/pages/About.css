@@ -3,73 +3,71 @@
 }
 .description {
   order: 1;
-  margin: 50px;
+  margin: 5%;
   line-height: 1.6;
 }
 
 .text-container {
   width: 65%;
-  margin-left: 5px;
+  margin-left: 0;
 }
 
 .alissandra-img{
- width: 150px;
- height: 150px;
- order: 2;
- border-radius: 5px;
- z-index: 0;
- position: absolute;
- margin-top: 80px;
- margin-left: 990px;
+  width: 18%;
+  order: 2;
+  border-radius: 5%;
+  z-index: 0;
+  position: absolute;
+  margin-top: -2%;
+  margin-left: 72%;
 }
 
 .moldura {
-  width: 400px;
+  width: 35%;
   position: absolute;
   z-index: 1;
-  margin-left: 870px;
+  margin-left: 63%;
+  margin-top: -8%;
 }
 
 .h1-about{
-  margin: 40px;
+  margin: 3%;
   width: 65%;
 }
 
 .my-languages {
   border: solid 3px #7451AA;;
   border-radius: 20px;
-  width: 800px;
-  margin-left: 42px;
-  padding: 10px;
-  margin-bottom: 40px;
+  width: 90%;
+  margin-left: 10%;
+  padding: 2%;
+  margin-bottom: 4%;
 }
 
 .container-icons-languages {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 20px;
-  padding: 10px;
+  padding-top: 4%;
+  padding: 2%;
 }
 
 .languages-icons {
-  width: 5px;
-  height: 5px;
+  width: 2%;
 }
 
 .react-icons {
-  width: 45px;
+  width: 6%;
 }
 
 .jest-icon {
-  width: 35px;
-  height: 35px;
+  width: 5%;
 }
 
 .medium-icon {
-  width: 50px;
+  width: 6.2%;
 }
 
 .mysql-icon {
-  width: 75px;
+  width: 7%;
 }
