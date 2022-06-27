@@ -62,3 +62,18 @@ body {
   z-index: 1;
   width: 20%;
 }
+
+@media screen and (max-width: 768px) {
+  .container-divs {
+    flex-direction: column;
+    margin-top: 30%;
+  }
+
+  .title{
+    font-size: 5vh;
+  }
+
+  .second-div{
+    height: 0%;
+  }
+}
