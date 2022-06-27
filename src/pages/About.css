@@ -71,3 +71,49 @@
 .mysql-icon {
   width: 7%;
 }
+
+@media screen and (max-width: 768px) {
+  .about-container{
+    border: 3px solid yellow;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .description {
+    width: 100%;
+  }
+
+  .my-languages{
+    flex-direction: column;
+    width: 80%;
+    height: 300px;
+  }
+
+  .container-icons-languages{
+    /* flex-direction: column; */
+    width: 80%;
+    border: 3px solid red;
+    height: 100%;
+  }
+
+  .languages-icons{
+    width: 0.5%;
+  }
+
+  .react-icons {
+    width: 20%;
+  }
+  
+  .jest-icon {
+    width: 20%;
+  }
+  
+  .medium-icon {
+    width: 17%;
+  }
+  
+  .mysql-icon {
+    width: 40%;
+  }
+}

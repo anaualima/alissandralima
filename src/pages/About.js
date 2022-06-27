@@ -23,7 +23,6 @@ function About() {
       <Header />
       <div className="about-container">
         <h1 className="h1-about">Um pouco sobre mim...</h1>
-
         <div className="img-perfil">
           <img src={alissandralima} alt="alissandra-lima" className="alissandra-img" />
         </div>
@@ -34,6 +33,7 @@ function About() {
           <p className="description">Olá me chamo Alissandra Lima, mas pode me chamar de Anauá sou desenvolvedora web front end e com alguns conhecimentos em back end.
             Este porrifólio reúne parte dos meus projetos realizados na Trybe, no curso de desenvolvedores fullstack.
             Agradeço sua visita, e fique a vontade para "fuçar" tudinho!</p>
+        </div>
           <div className="my-languages">
             <p>Principais linguages e ferramentas trabalhadas:</p>
             <div className="container-icons-languages">
@@ -99,7 +99,6 @@ function About() {
               />
             </div>
           </div>
-        </div>
       </div>
       <Footer className="footer-about" />
     </div>
