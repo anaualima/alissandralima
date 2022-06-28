@@ -35,3 +35,11 @@
   width: 50%;
   color: #DFDDD0;
 }
+
+@media screen and (max-width: 768px) {
+  .container-send{
+    margin-top: 100%;
+    width: 105%;
+    margin-left: 30%;
+  }
+}

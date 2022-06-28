@@ -10,13 +10,13 @@ function Contact() {
       <Header />
       <div className="container-general">
         <div className="container-align-contact-form">
-        <div className="contact-container">
-          <h1>Contatos</h1>
-          <p>Linkedin: https://www.linkedin.com/in/alissandra-lima-developer/</p>
-          <p>github: https://github.com/anaualima</p>
-          <p>email: alissandraraysa@gmail.com</p>
-        </div>
-          <FormEmail />
+          <div className="contact-container">
+            <h1>Contatos</h1>
+            <p>Linkedin: https://www.linkedin.com/in/alissandra-lima-developer/</p>
+            <p>github: https://github.com/anaualima</p>
+            <p>email: alissandraraysa@gmail.com</p>
+          </div>
+          <FormEmail className="form-email" />
         </div>
         <img src={email} alt="ilustracao de email" className="ilustra-email" />
       </div>

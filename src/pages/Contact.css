@@ -20,3 +20,10 @@
 .container-align-contact-form{
   width: 60%;
 }
+
+@media screen and (max-width: 768px) {
+  .ilustra-email{
+    margin-top: 70%;
+    margin-left: 10%;
+  }
+}
