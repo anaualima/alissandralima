@@ -1,6 +1,7 @@
 .about-container{
   margin-top: 5vw;
 }
+
 .description {
   order: 1;
   margin: 5%;
@@ -74,7 +75,7 @@
 
 @media screen and (max-width: 768px) {
   .about-container{
-    border: 3px solid yellow;
+    align-items: center;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -87,14 +88,13 @@
   .my-languages{
     flex-direction: column;
     width: 80%;
-    height: 300px;
   }
 
   .container-icons-languages{
     /* flex-direction: column; */
-    width: 80%;
-    border: 3px solid red;
-    height: 100%;
+    margin-top: 5%;
+    height: 40%;
+    flex-wrap: wrap;
   }
 
   .languages-icons{
@@ -102,11 +102,11 @@
   }
 
   .react-icons {
-    width: 20%;
+    width: 18%;
   }
   
   .jest-icon {
-    width: 20%;
+    width: 15%;
   }
   
   .medium-icon {
@@ -114,6 +114,18 @@
   }
   
   .mysql-icon {
+    width: 35%;
+  }
+
+  .moldura{
+    position: relative;
+    width: 0%;
+  }
+
+  .alissandra-img{
     width: 40%;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 5%;
   }
 }
