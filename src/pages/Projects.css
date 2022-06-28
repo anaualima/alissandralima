@@ -46,3 +46,13 @@
   width: 200px;
   margin-bottom: 300px;
 }
+
+@media screen and (max-width: 768px) {
+  .engrenagem{
+    width: 20%;
+  }
+
+  .container-projects{
+    height: 700px;
+  }
+}
