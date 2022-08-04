@@ -39,10 +39,11 @@
 .my-languages {
   border: solid 3px #7451AA;;
   border-radius: 20px;
-  width: 90%;
-  margin-left: 10%;
+  width: 60%;
+  margin-left: 3%;
   padding: 2%;
   margin-bottom: 4%;
+  flex-wrap: wrap;
 }
 
 .container-icons-languages {
@@ -54,23 +55,23 @@
 }
 
 .languages-icons {
-  width: 2%;
+  width: 1%;
 }
 
 .react-icons {
-  width: 6%;
+  width: 7%;
 }
 
 .jest-icon {
-  width: 5%;
+  width: 6%;
 }
 
 .medium-icon {
-  width: 6.2%;
+  width: 7.2%;
 }
 
 .mysql-icon {
-  width: 7%;
+  width: 6%;
 }
 
 @media screen and (max-width: 768px) {
